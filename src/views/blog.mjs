@@ -1,6 +1,5 @@
 import Navbar from '../components/Navbar.mjs'
 import Footer from '../components/Footer.mjs'
-import Hero from '../components/Hero.mjs'
 
 const data = {
     style: {
@@ -17,7 +16,7 @@ const data = {
 const template = `
     <div class="${ data.class.container }" style="${ data.style.container }">
         ${ Navbar }
-        ${ Hero }
+        <div id="markdown">${ renderMarkdownFile('index.md') }</div>
         <div class="${ data.class.spacer }"></div>
         ${ Footer }
     </div>
