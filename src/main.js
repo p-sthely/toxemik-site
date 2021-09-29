@@ -2,9 +2,9 @@ console.log('Message from src/main.js : hello!')
 
 var md = window.markdownit();
 
-function getMarkdownContent(page) {
+function renderMarkdownFile(file) {
     var request = new XMLHttpRequest();
-    request.open('GET', './src/content/' + page + '.md');
+    request.open('GET', './src/content/' + file);
     request.responseType = 'text';
     
     request.onload = function() {

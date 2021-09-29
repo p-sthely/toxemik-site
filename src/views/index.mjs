@@ -16,7 +16,7 @@ const data = {
 const template = `
     <div class="${ data.class.container }" style="${ data.style.container }">
         ${ Navbar }
-        <div id="markdown">${ getMarkdownContent('index') }</div>
+        <div id="markdown">${ renderMarkdownFile('index.md') }</div>
         <div class="${ data.class.spacer }"></div>
         ${ Footer }
     </div>

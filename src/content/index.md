@@ -71,7 +71,7 @@ Le texte est généré via [Lorem Ipsum](https://www.lipsum.com/) et les images 
 
 Le rendu final est le suivant :
 
-![](/images/screenshot-from-2021-08-18-13-45-45.png)
+![](https://dazzling-goldstine-35039a.netlify.app/images/screenshot-from-2021-08-18-13-45-45.png)
 
 Ceci est une maquette très précise de ce que l'on veut obtenir. Faire une maquette, ou du moins, avoir une idée la plus précise possible de l'objectif final, est indispensable pour ne pas se perdre dans des considérations inutiles.
 
