@@ -17,7 +17,7 @@ const data = {
 const template = `
     <div class="${ data.class.container }" style="${ data.style.container }">
         ${ Navbar }
-        <div id="markdown" class="px-lg-5"></div>
+        <div id="markdown"></div>
         ${ Posts }
         <div class="${ data.class.spacer }"></div>
         ${ Footer }
