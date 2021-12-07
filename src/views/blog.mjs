@@ -1,4 +1,5 @@
 import Navbar from '../components/Navbar.mjs'
+import Posts from '../components/Posts.mjs'
 import Footer from '../components/Footer.mjs'
 
 const data = {
@@ -16,7 +17,8 @@ const data = {
 const template = `
     <div class="${ data.class.container }" style="${ data.style.container }">
         ${ Navbar }
-        <div id="markdown">${ renderMarkdownFile('index.md') }</div>
+        <div id="markdown" class="px-lg-5"></div>
+        ${ Posts }
         <div class="${ data.class.spacer }"></div>
         ${ Footer }
     </div>
