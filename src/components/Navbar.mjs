@@ -13,7 +13,7 @@ const data = {
 }
 
 const template = `
-<nav class="pb-5 mb-5 ${ data.class.navbar }">
+<nav class="py-5 mb-5 ${ data.class.navbar }">
   <div class="container-fluid">
     <a class="navbar-brand" href="index.html">
         <img src="./src/assets/images/toxemik-logos_black.png" alt="" width="180" height="auto">
