@@ -17,7 +17,9 @@ const data = {
 const template = `
     <div class="${ data.class.container }" style="${ data.style.container }">
         ${ Navbar }
-        ${ Hero }
+        <main>
+            ${ Hero }
+        </main>
         <div class="${ data.class.spacer }"></div>
         ${ Footer }
     </div>

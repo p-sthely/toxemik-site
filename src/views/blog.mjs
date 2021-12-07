@@ -17,8 +17,10 @@ const data = {
 const template = `
     <div class="${ data.class.container }" style="${ data.style.container }">
         ${ Navbar }
-        <div id="markdown"></div>
-        ${ Posts }
+        <main>
+            <div id="markdown"></div>
+            ${ Posts }
+        </main>
         <div class="${ data.class.spacer }"></div>
         ${ Footer }
     </div>
