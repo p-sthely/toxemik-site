@@ -1,6 +1,7 @@
 import Navbar from '../components/Navbar.mjs'
 import Footer from '../components/Footer.mjs'
 import Hero from '../components/Hero.mjs'
+import Gallery from '../components/Gallery.mjs'
 
 const data = {
     style: {
@@ -19,6 +20,7 @@ const template = `
         ${ Navbar }
         <main>
             ${ Hero }
+            ${ Gallery }
         </main>
         <div class="${ data.class.spacer }"></div>
         ${ Footer }
