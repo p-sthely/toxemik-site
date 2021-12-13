@@ -6,6 +6,13 @@ const template = `
             <div class="row row-cols-1 row-cols-md-2 gx-0">
                 <div class="col">
                     <div class="card p-5 border-0">
+                        <a href="https://youthful-hermann-05f3a4.netlify.app/" target="_blank"><img src="./src/assets/images/carmine.png" class="card-img-top" alt="template carmine"></a>
+                        <div class="card-body">
+                            <h5 class="card-title"><a class="link-dark" href="https://upbeat-euler-866984.netlify.app">Carmine</a></h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Présentation événementiel</h6>
+                        </div>
+                    </div>
+                    <div class="card p-5 border-0">
                         <a href="https://upbeat-euler-866984.netlify.app" target="_blank"><img src="./src/assets/images/ipsum-lorem.png" class="card-img-top" alt="template ipsum-lorem"></a>
                         <div class="card-body">
                             <h5 class="card-title"><a class="link-dark" href="https://upbeat-euler-866984.netlify.app">Ipsum Lorem</a></h5>
@@ -19,6 +26,8 @@ const template = `
                             <h6 class="card-subtitle mb-2 text-muted">Pour la cuisine</h6>
                         </div>
                     </div>
+                </div>
+                <div class="col">
                     <div class="card p-5 border-0">
                         <a href="https://focused-kirch-2bf071.netlify.app" target="_blank"><img src="./src/assets/images/barbosa.png" class="card-img-top" alt="template barbosa"></a>
                         <div class="card-body">
@@ -26,8 +35,6 @@ const template = `
                             <h6 class="card-subtitle mb-2 text-muted">Hôtels, maison d'hôtes</h6>
                         </div>
                     </div>
-                </div>
-                <div class="col">
                     <div class="card p-5 border-0">
                         <a href="https://affectionate-babbage-c8ae0b.netlify.app" target="_blank"><img src="./src/assets/images/paloma.png" class="card-img-top" alt="template paloma"></a>
                         <div class="card-body">
